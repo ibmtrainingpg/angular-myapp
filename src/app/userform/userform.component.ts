@@ -12,7 +12,7 @@ export class UserformComponent implements OnInit {  //controller
   userArray:User[]=[];
   constructor() { }
   save(){
-    this.userArray.push(this.user);
+    this.userArray.push(Object.assign({}, this.user));
     console.log('working...');
     console.log(this.user.firstname);
     // this.user.firstname = 'John';

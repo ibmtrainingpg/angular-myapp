@@ -2,11 +2,12 @@
 <input [(ngModel)]='user.firstname'>
 <input [(ngModel)]='user.age' placeholder="age" type='number'>
 <button (click)='save()'>Save</button>
-<table>
+<table >
   <thead><td>FirstName</td></thead>
 <tbody>
   <tr *ngFor='let user1 of userArray'>
     <td>{{user1.firstname}}</td>
+    <td>{{user1.age}}</td>
   </tr>
 </tbody>
 </table>
