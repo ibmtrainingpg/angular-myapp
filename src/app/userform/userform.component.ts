@@ -21,7 +21,7 @@ export class UserformComponent implements OnInit {  //controller
     },
     error=> {
       console.log(error);
-      alert(error.statusText)
+      alert('error happenned..')
     })
     // this.user.firstname = 'John';
 
