@@ -14,6 +14,6 @@ tr:nth-child(odd){
   background-color: aqua;
 }
 
-tr, td:hover{
+tr,tr td:hover{
   background-color: red;
 }
